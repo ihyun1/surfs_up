@@ -8,10 +8,12 @@ To query our database for the June temperatures of each year, we imported 'extra
 ![June_Query_Extract.png](Resources/June_Query_Extract.png)
 
 After transferring our data into a dataframe, we utilized Pandas' describe function to return the summary statistics on the month of June. As shown below, the average temperature was comfortably warm at 74.9 degrees. The coldest temperature recorded in June was 64.0 degrees and the warmest was 85.0 degrees. The standard deviation was 3.26 degrees with 75% of the data recorded being 73 degrees or warmer.
+
 ![June_Temp_Stats.png](Resources/June_Temp_Stats.png)
 
 
 For our December temperature statistics, our average temperature was 71.0 degree, almost four degrees lower. The coldest temperature reached 56 degrees while the warmest was 83 degrees. The standard deviations was larger at 3.75 degrees, attributed to the higher variance of temperatures, with 75% of the data being 69 degrees or warmer.
+
 ![Dec_Temp_Stats.png](Resources/Dec_Temp_Stats.png)
 
 ## Summary
